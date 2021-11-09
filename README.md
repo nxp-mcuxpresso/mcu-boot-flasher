@@ -25,9 +25,11 @@
 
 　　NXP-MCUBootFlasher is packaged by PyInstaller, all Python dependencies have been packaged into an executable file (\NXP-MCUBootFlasher\bin\NXP-MCUBootFlasher.exe), so if you do not want to develop NXP-MCUBootFlasher for new feature, there is no need to install any Python software or related libraries.  
 
-> Note1: The NXP-MCUBootFlasher.exe in the source code package is packaged in the Windows 10 x64 environment and has only been tested in this environment. If it cannot be used directly for system environment reasons, you need to install [Python2.7.15 x86 version ](https://www.python.org/ftp/python/2.7.15/python-2.7.15.msi)(Confirm that the directory "\Python27\" and "\Python27\Scripts\" are in the system environment variable path after the installation is completed), then click on "do_setup_by_pip.bat" in the "\NXP-MCUBootFlasher\env\" directory to install the Python library on which NXP-MCUBootFlasher depends. Finally, click "do_pack_by_pyinstaller.bat" to regenerate the NXP-MCUBootFlasher.exe.  
+> Note1: For complete package with final .exe file, you need to download mcu-boot-flasher-x.x.x-with-exe.zip from https://github.com/NXPmicro/mcu-boot-flasher/releases
 
-> Note2: You must use Python2 x86 version, because NXP-MCUBootFlasher uses the pywinusb library, which cannot be packaged by PyInstaller in Python2 x64 version. The pywinusb author has no plan to fix the problem.  
+> Note2: The NXP-MCUBootFlasher.exe in the source code package is packaged in the Windows 10 x64 environment and has only been tested in this environment. If it cannot be used directly for system environment reasons, you need to install [Python2.7.15 x86 version ](https://www.python.org/ftp/python/2.7.15/python-2.7.15.msi)(Confirm that the directory "\Python27\" and "\Python27\Scripts\" are in the system environment variable path after the installation is completed), then click on "do_setup_by_pip.bat" in the "\NXP-MCUBootFlasher\env\" directory to install the Python library on which NXP-MCUBootFlasher depends. Finally, click "do_pack_by_pyinstaller.bat" to regenerate the NXP-MCUBootFlasher.exe.  
+
+> Note3: You must use Python2 x86 version, because NXP-MCUBootFlasher uses the pywinusb library, which cannot be packaged by PyInstaller in Python2 x64 version. The pywinusb author has no plan to fix the problem.  
 
 #### 1.3 Installation
 　　NXP-MCUBootFlasher is a pure green free installation tool. After downloading the source code package, double-click "\NXP-MCUBootFlasher\bin\NXP-MCUBootFlasher.exe" to use it. No additional software is required.  
